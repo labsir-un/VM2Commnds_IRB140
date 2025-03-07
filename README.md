@@ -18,6 +18,8 @@ El avance de la **robótica colaborativa** ha permitido una interacción más se
 
 Este proyecto propone un sistema basado en **visión artificial** que monitorea el estado de fatiga de un operario y actúa en tiempo real para detener la operación de un **robot ABB IRB 140** en caso de riesgo. Para lograrlo, se implementó una solución de detección de fatiga utilizando una **cámara Intel RealSense D435**, **redes neuronales para el análisis de gesticulaciones faciales**, y un **PLC Allen Bradley Logix 5000** que interrumpe el funcionamiento del robot en caso de detectar niveles de fatiga críticos. Además, el sistema emplea una **arquitectura de ticket de comunicaciones**, asegurando un flujo de datos robusto y confiable entre los distintos componentes.
 
+---
+
 ## Objetivos del Proyecto
 
 - Desarrollar un sistema de detección de fatiga basado en visión artificial que permita monitorear en tiempo real el estado de alerta del operario, utilizando análisis de gesticulaciones faciales como un indicador del nivel de fatiga.
@@ -43,14 +45,14 @@ La información visual es procesada mediante un **modelo de redes neuronales pre
 
 [![Ver Video](https://img.youtube.com/vi/Hj6JkPNJw48/0.jpg)](https://www.youtube.com/watch?v=Hj6JkPNJw48)
 
+---
+
 ## Arquitectura de Comunicaciones
 
 El sistema implementa dos arquitecturas de comunicación principales para garantizar una integración fluida entre la visión artificial y el control del robot:
 
 1. Comunicación entre el módulo de visión artificial, el PLC e Ignition.
 2. Comunicación entre el módulo de visión artificial y el robot ABB mediante sockets TCP/IP.
-
----
 
 ### 1. Comunicación entre el Módulo de Visión Artificial, el PLC e Ignition  
 
@@ -76,8 +78,6 @@ Esta arquitectura permite que la información sobre el nivel de fatiga del opera
 - Integración con sistemas industriales ya existentes.  
 - Monitoreo en tiempo real con alertas y reportes históricos.  
 
----
-
 ### 2. Comunicación entre el PLC y el Robot ABB IRB 140 mediante Sockets TCP/IP  
 
 Esta arquitectura garantiza una respuesta rápida y eficiente del robot a las señales de fatiga enviadas por el PLC.
@@ -97,8 +97,6 @@ Esta arquitectura garantiza una respuesta rápida y eficiente del robot a las se
 - Protocolo ligero y eficiente sin necesidad de middleware adicional.  
 - Interfaz directa con el controlador IRC5 del robot.  
 
----
-
 ### Resumen de la Arquitectura de Comunicaciones  
 
 | Componente | Función |
@@ -110,8 +108,6 @@ Esta arquitectura garantiza una respuesta rápida y eficiente del robot a las se
 | Ignition SCADA | Supervisión y monitoreo en tiempo real. |
 | Sockets TCP/IP | Comunicación directa entre el PLC y el Robot ABB. |
 | ABB IRC5 Controller | Control y ejecución del robot ABB IRB 140. |
-
----
 
 Esta arquitectura permite que el sistema funcione en tiempo real, asegurando que cuando se detecta fatiga en el operario, se interrumpa la operación del robot en menos de un segundo, mientras la información se muestra en la interfaz SCADA para monitoreo remoto.
 
@@ -156,8 +152,6 @@ El sistema fue evaluado en dos entornos:
 
 [![Ver Video](https://img.youtube.com/vi/51PFAXfUmWM/0.jpg)](https://www.youtube.com/watch?v=51PFAXfUmWM)
 
----
-
 ### 2. Resultados en la Simulación con RobotStudio  
 
 Antes de implementar el sistema en el entorno real, se realizó una **validación en RobotStudio** para verificar el comportamiento del robot ante distintos niveles de fatiga simulados.  
@@ -178,9 +172,7 @@ Antes de implementar el sistema en el entorno real, se realizó una **validació
 - En términos de detección de fatiga, los resultados de la simulación fueron **coherentes con los datos obtenidos en el LabSir**, lo que confirmó la fiabilidad del sistema.  
 - La diferencia principal radicó en que en la simulación, la iluminación y las condiciones del entorno fueron **más controladas**, por lo que la precisión en la detección de fatiga fue ligeramente superior.
 
-[![Ver Video](https://img.youtube.com/vi/92MZYH_ESPY/0.jpg)](https://www.youtube.com/watch?v=92MZYH_ESPY)
-
----
+[![Ver Video](https://img.youtube.com/vi/92MZYH_ESPY/0.jpg)](https://www.youtube.com/watch?v=92MZYH_ESPY
 
 ### Conclusiones de las Pruebas  
 
@@ -191,6 +183,7 @@ Antes de implementar el sistema en el entorno real, se realizó una **validació
 
 Este sistema representa un avance significativo en la seguridad en **robótica colaborativa**, integrando visión artificial, control industrial y comunicación eficiente mediante **OPC UA y sockets TCP/IP**.  
 
+---
 
 ## Conclusiones  
 
