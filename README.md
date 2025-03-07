@@ -2,8 +2,8 @@
 
 **Autores:**  
 - **Manuel Felipe Carranza Montenegro** *(Estudiante, Ingeniería Mecatrónica)*  
-- **Pedro Fabián Cárdenas Herrera** *(Profesor, Universidad Nacional de Colombia)*  
-- **Ricardo Emir Ramírez Heredia** *(Profesor, Universidad Nacional de Colombia)*  
+- **Ing. Pedro Fabián Cárdenas Herrera** *(Profesor, Universidad Nacional de Colombia)*  
+- **Ing. Ricardo Emir Ramírez Heredia** *(Profesor, Universidad Nacional de Colombia)*  
 
 **Institución:**  
 - **Universidad Nacional de Colombia**  
