@@ -8,7 +8,26 @@ Este proyecto propone un sistema basado en **visión artificial** que monitorea 
 
 ## Objetivos del Proyecto
 
-- Diseñar e implementar un sistema de **detección de fatiga basado en visión artificial**.  
-- Integrar una solución de **control reactivo** que garantice la seguridad del operario mediante la interrupción automática del robot en caso de fatiga.  
-- Validar la **precisión y tiempo de respuesta** del sistema en un entorno controlado.  
-- Desarrollar una **arquitectura de ticket de comunicaciones**
+- Desarrollar un sistema de detección de fatiga basado en visión artificial que permita monitorear en tiempo real el estado de alerta del operario, utilizando análisis de gesticulaciones faciales como un indicador del nivel de fatiga.
+
+- Integrar un mecanismo de control proactivo que interrumpa automáticamente la operación del robot ABB IRB 140 al detectar signos de fatiga excesiva, garantizando así la seguridad del operario y reduciendo la probabilidad de accidentes en entornos de robótica colaborativa.
+
+- Comparar la comunicación entre los módulos del sistema mediante la implementación de diferentes arquitectura de comunicaciones, asegurando un flujo de información eficiente entre la visión artificial y el controlador IRC5 del robot.
+
+- Diseñar una solución escalable y adaptable a diferentes entornos industriales, considerando la posibilidad de futuras mejoras como la integración de sensores fisiológicos complementarios (ritmo cardíaco, temperatura corporal) y la optimización de los algoritmos de detección para condiciones de iluminación variables.
+
+## ⚙ Metodología y Arquitectura del Sistema  
+
+El sistema de detección de fatiga está estructurado en varias etapas clave:  
+
+### Captura y Procesamiento de Imágenes  
+Se utiliza una **cámara Intel RealSense D435** para capturar imágenes en tiempo real del operario.  
+Se aplican **algoritmos de visión artificial** para identificar signos de fatiga, considerando:  
+   - Apertura ocular  
+   - Frecuencia de parpadeo  
+   - Expresiones faciales  
+
+La información visual es procesada mediante un **modelo de redes neuronales preentrenadas** capaz de **clasificar el nivel de fatiga**.  
+
+
+
