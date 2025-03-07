@@ -29,5 +29,7 @@ Se aplican **algoritmos de visión artificial** para identificar signos de fatig
 
 La información visual es procesada mediante un **modelo de redes neuronales preentrenadas** capaz de **clasificar el nivel de fatiga**.  
 
+[![Ver Video](https://img.youtube.com/vi/Hj6JkPNJw48/0.jpg)](https://www.youtube.com/watch?v=Hj6JkPNJw48)
+
 
 
