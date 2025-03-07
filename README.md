@@ -1,5 +1,17 @@
 # Implementación de un Entorno de Robótica Colaborativa con Detección de Fatiga Basada en Visión Artificial
 
+**Autores:**  
+- **Manuel Felipe Carranza Montenegro** *(Estudiante, Ingeniería Mecatrónica)*  
+- **Pedro Fabián Cárdenas Herrera** *(Profesor, Universidad Nacional de Colombia)*  
+- **Ricardo Emir Ramírez Heredia** *(Profesor, Universidad Nacional de Colombia)*  
+
+**Institución:**  
+- **Universidad Nacional de Colombia**  
+- **Facultad de Ingeniería**  
+- **Ingeniería Mecatrónica**
+
+---
+
 ## Descripción General
 
 El avance de la **robótica colaborativa** ha permitido una interacción más segura y eficiente entre humanos y robots en entornos industriales. Sin embargo, la seguridad del operario sigue siendo un desafío crítico, ya que factores como la **fatiga** pueden afectar su capacidad de respuesta, aumentar la probabilidad de errores y comprometer la seguridad del sistema en general. 
